@@ -29,3 +29,41 @@ html{
     z-index: center;
     background: #1d1d23;
 }
+.logo img{
+    width: 60px;
+}
+
+.navbar a{
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* 
+.icons div{
+    color: white;
+    font-size: 1.5rem;   
+    margin-right: 10px;
+}
+
+.icons div #menu-bar:hover{
+    cursor: pointer;
+}
+*/
+.icons div{
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    display: none;
+}
+.icons div:hover{
+    cursor: pointer;
+}
+
+.icons a{
+    color: white;
+    padding: 0.6rem 1.5rem;
+    background: var(--btn-color);
+    font-size: 18px;
+}
