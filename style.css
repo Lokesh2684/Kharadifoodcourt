@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 :root{
-    --btn-color:#022f4c;
+    --btn-color: #022f4c;
     --about-sec:#1d1d23;
 }
+/* e58f00*/
 *{
     padding: 0;
     margin: 0;
@@ -105,7 +106,6 @@ html{
     transform: translate(0%, -40%);
     animation: mymove 5s infinite ease-in-out;
 }
-
 @keyframes mymove {
     0%   {top: 0px;}
     50%   {top: 15px;}
@@ -117,7 +117,7 @@ html{
 }
 .home-text-content h1{
     font-size: 45px;
-    color: #007fd4;
+    color: #022f4c;
 }
 .home-text-content p{
     color: white;
@@ -169,7 +169,7 @@ html{
     padding: 0 4rem;
 }
 .about-text-content h1{
-    color: #007fd4;
+    color: #022f4c;
     font-size: 40px;
     margin-bottom: 15px;
 }
@@ -196,12 +196,12 @@ html{
     padding: 0 4rem;
 }
 .quality-content h1{
-    color: #007fd4;
+    color: var(--btn-color);
     font-size: 40px;
     margin-bottom: 15px;
 }
 .quality-content p{
-    color: white;
+    color: var(--about-sec);
     font-size: 1.5rem;
     line-height: 30px;
 }
@@ -220,7 +220,7 @@ html{
     font-size: 50px;
     text-align: center;
     padding-bottom: 3rem;
-    color:white;
+    color: var(--btn-color);
     letter-spacing: 1px;
 }
 .main-gallery{
@@ -304,7 +304,7 @@ html{
     padding: 2rem 2rem;
 }
 .menu-food-text h2{
-    color: #007fd4;
+    color: var(--btn-color);
     font-size: 30px;
 }
 .menu-food-text p{
@@ -313,7 +313,7 @@ html{
     margin: 2rem 0;
 }
 .menu-food-text p span{
-    color: #007fd4;
+    color: #022f4c;
     padding: 0.5rem 1.5rem;
     transition: 0.3s;
     cursor: pointer;
@@ -357,7 +357,7 @@ html{
     margin-top: 15px;
 }
 .footer-navbar a{
-    color: #007fd4;
+    color: #022f4c;
     font-size: 18px;
     margin: 1rem;
     padding: 1rem;
